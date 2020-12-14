@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/AES.cpp">
+			<Option target="bsi_coder"/>
+		</Unit>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/AES.h">
+			<Option target="bsi_coder"/>
+		</Unit>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/aes_test.cpp">
+			<Option target="bsi_coder"/>
+		</Unit>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/aes_test.h">
+			<Option target="bsi_coder"/>
+		</Unit>
 		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/main.cpp">
 			<Option target="bsi_coder"/>
 		</Unit>

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/AES.h
+cstddef
+-
+
+/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/aes_test.cpp
+cstdio
+-
+memory.h
+-
+AES.h
+/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/AES.h
+

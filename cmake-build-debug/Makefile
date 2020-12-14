@@ -143,6 +143,60 @@ bsi_coder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/build
 .PHONY : bsi_coder/fast
 
+algorithms/aes/AES.o: algorithms/aes/AES.cpp.o
+
+.PHONY : algorithms/aes/AES.o
+
+# target to build an object file
+algorithms/aes/AES.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/AES.cpp.o
+.PHONY : algorithms/aes/AES.cpp.o
+
+algorithms/aes/AES.i: algorithms/aes/AES.cpp.i
+
+.PHONY : algorithms/aes/AES.i
+
+# target to preprocess a source file
+algorithms/aes/AES.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/AES.cpp.i
+.PHONY : algorithms/aes/AES.cpp.i
+
+algorithms/aes/AES.s: algorithms/aes/AES.cpp.s
+
+.PHONY : algorithms/aes/AES.s
+
+# target to generate assembly for a file
+algorithms/aes/AES.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/AES.cpp.s
+.PHONY : algorithms/aes/AES.cpp.s
+
+algorithms/aes/aes_test.o: algorithms/aes/aes_test.cpp.o
+
+.PHONY : algorithms/aes/aes_test.o
+
+# target to build an object file
+algorithms/aes/aes_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/aes_test.cpp.o
+.PHONY : algorithms/aes/aes_test.cpp.o
+
+algorithms/aes/aes_test.i: algorithms/aes/aes_test.cpp.i
+
+.PHONY : algorithms/aes/aes_test.i
+
+# target to preprocess a source file
+algorithms/aes/aes_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/aes_test.cpp.i
+.PHONY : algorithms/aes/aes_test.cpp.i
+
+algorithms/aes/aes_test.s: algorithms/aes/aes_test.cpp.s
+
+.PHONY : algorithms/aes/aes_test.s
+
+# target to generate assembly for a file
+algorithms/aes/aes_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/aes/aes_test.cpp.s
+.PHONY : algorithms/aes/aes_test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bsi_coder"
+	@echo "... algorithms/aes/AES.o"
+	@echo "... algorithms/aes/AES.i"
+	@echo "... algorithms/aes/AES.s"
+	@echo "... algorithms/aes/aes_test.o"
+	@echo "... algorithms/aes/aes_test.i"
+	@echo "... algorithms/aes/aes_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
