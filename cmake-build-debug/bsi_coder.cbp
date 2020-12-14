@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/3DES/triple_des.cpp">
+			<Option target="bsi_coder"/>
+		</Unit>
+		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/3DES/triple_des.h">
+			<Option target="bsi_coder"/>
+		</Unit>
 		<Unit filename="/home/ruxuge/PJWSTK/bsi_coder/algorithms/aes/AES.cpp">
 			<Option target="bsi_coder"/>
 		</Unit>

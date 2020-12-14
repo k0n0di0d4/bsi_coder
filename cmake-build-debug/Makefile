@@ -143,6 +143,33 @@ bsi_coder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/build
 .PHONY : bsi_coder/fast
 
+algorithms/3DES/triple_des.o: algorithms/3DES/triple_des.cpp.o
+
+.PHONY : algorithms/3DES/triple_des.o
+
+# target to build an object file
+algorithms/3DES/triple_des.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/3DES/triple_des.cpp.o
+.PHONY : algorithms/3DES/triple_des.cpp.o
+
+algorithms/3DES/triple_des.i: algorithms/3DES/triple_des.cpp.i
+
+.PHONY : algorithms/3DES/triple_des.i
+
+# target to preprocess a source file
+algorithms/3DES/triple_des.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/3DES/triple_des.cpp.i
+.PHONY : algorithms/3DES/triple_des.cpp.i
+
+algorithms/3DES/triple_des.s: algorithms/3DES/triple_des.cpp.s
+
+.PHONY : algorithms/3DES/triple_des.s
+
+# target to generate assembly for a file
+algorithms/3DES/triple_des.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsi_coder.dir/build.make CMakeFiles/bsi_coder.dir/algorithms/3DES/triple_des.cpp.s
+.PHONY : algorithms/3DES/triple_des.cpp.s
+
 algorithms/aes/AES.o: algorithms/aes/AES.cpp.o
 
 .PHONY : algorithms/aes/AES.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bsi_coder"
+	@echo "... algorithms/3DES/triple_des.o"
+	@echo "... algorithms/3DES/triple_des.i"
+	@echo "... algorithms/3DES/triple_des.s"
 	@echo "... algorithms/aes/AES.o"
 	@echo "... algorithms/aes/AES.i"
 	@echo "... algorithms/aes/AES.s"
