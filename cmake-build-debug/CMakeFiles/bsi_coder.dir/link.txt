@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bsi_coder.dir/main.cpp.o  -o bsi_coder 
